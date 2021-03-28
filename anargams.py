@@ -15,7 +15,7 @@ def counter(word):
     word_dict = {}
     for latter in word:
         if latter not in word_dict.keys():
-            word_dict[latter] = word.count(latter)
+            word_dict[latter] = word.day(latter)
     return word_dict, len(word)
 
 
